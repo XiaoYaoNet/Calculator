@@ -1,0 +1,45 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Calculator - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\…ÍÓ⁄À…\AppData\Local\Temp\RSP1A06.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/Calculator.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\shenyusong\E≈Ã\VCø… ”ªØ\Calculator\StdAfx.cpp"
+]
+Creating command line "cl.exe @"C:\Users\…ÍÓ⁄À…\AppData\Local\Temp\RSP1A06.tmp"" 
+Creating temporary file "C:\Users\…ÍÓ⁄À…\AppData\Local\Temp\RSP1A07.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\shenyusong\E≈Ã\VCø… ”ªØ\Calculator\CalculatorDlg.cpp"
+]
+Creating command line "cl.exe @"C:\Users\…ÍÓ⁄À…\AppData\Local\Temp\RSP1A07.tmp"" 
+Creating temporary file "C:\Users\…ÍÓ⁄À…\AppData\Local\Temp\RSP1A08.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/Calculator.pdb" /debug /machine:I386 /out:"Debug/Calculator.exe" /pdbtype:sept 
+".\Debug\Calculator.obj"
+".\Debug\CalculatorDlg.obj"
+".\Debug\Data.obj"
+".\Debug\StdAfx.obj"
+".\Debug\Calculator.res"
+]
+Creating command line "link.exe @"C:\Users\…ÍÓ⁄À…\AppData\Local\Temp\RSP1A08.tmp""
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+CalculatorDlg.cpp
+Linking...
+LINK : LNK6006: program database F:\shenyusong\E≈Ã\VCø… ”ªØ\Calculator\Debug\Calculator.pdb missing; performing full link
+
+
+
+<h3>Results</h3>
+Calculator.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
